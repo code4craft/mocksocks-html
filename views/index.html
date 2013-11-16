@@ -4,38 +4,32 @@
     <title>Mocksocks</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <link rel="stylesheet" type="text/css" href="../public/css/lib/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="../public/css/page/index.css">
-    <link rel="stylesheet" type="text/css" href="../public/css/lib/font-awesome.css">
-    <script src="../public/js/lib/jquery-1.10.2.js"></script>
-    <script src="../public/js/lib/bootstrap.js"></script>
-    <script src="../public/js/lib/angular.js"></script>
-    <script src="../public/js/lib/angular-route.js"></script>
-    <script src="../public/js/app/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="../app/css/lib/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../app/css/page/index.css">
+    <link rel="stylesheet" type="text/css" href="../app/css/lib/font-awesome.css">
+    <script src="../app/js/lib/jquery-1.10.2.js"></script>
+    <script src="../app/js/lib/bootstrap.js"></script>
+    <script src="../app/js/lib/angular.js"></script>
+    <script src="../app/js/lib/angular-route.js"></script>
+    <script src="../app/js/app/app.js"></script>
 
 </head>
 <body>
 <div id="header" class="row">
-    <div class="logo col-xs-2"><img src="../public/img/mocksocks.png" height="90" width="90"/></div>
+    <div class="logo col-xs-2"><img src="../app/img/mocksocks.png" height="90" width="90"/></div>
     <div class="title col-xs-2">MockSocks</div>
     <div class="description col-xs-8">帮助你调试任意TCP/UDP之上连接的Socks代理工具.</div>
     <div class="col-xs-8"></div>
     <div class="underline col-xs-9"></div>
     <div class="col-xs-10">
-        <div class="row" id="nav">
+        <div class="row">
             <div class="btn-group">
                 <button type="button" class="btn btn-default">开始 <i class="fa fa-play"></i></button>
                 <button type="button" class="btn btn-default">清空 <i class="fa fa-trash-o"></i></button>
             </div>
         </div>
     </div>
-
 </div>
-<div class="row">
-
-    <div ng-view></div>
-</div>
-
-
+<div ng-view id="content"></div>
 </body>
 </html>

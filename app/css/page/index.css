@@ -37,3 +37,10 @@ body {
   color: #59443c;
   background-color: blanchedalmond;
 }
+#nav {
+  min-height: 530px;
+  background-color: #E0F2C1;
+}
+#content {
+  margin-left: 0px;
+}
