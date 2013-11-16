@@ -1,7 +1,8 @@
 'use strict'
 
 var mockSocksApp = angular.module('mockSocksApp', [
-    'ngRoute'
+    'ngRoute',
+    'mocksocksControllers'
 ]);
 
 mockSocksApp.config(['$routeProvider',

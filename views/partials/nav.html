@@ -1,9 +1,7 @@
 <div class="row">
-    <div class="col-xs-5" id="nav">
+    <div class="col-xs-5" id="nav" ng-controller="ConnectionListCtrl">
         <ul class="nav nav-pills">
-            <li><a href="#">www.oshina.net</a></li>
-            <li><a href="#">www.baidu.com</a></li>
-            <li><a href="#">www.dianping.com</a></li>
+            <li ng-repeat="connection in connections"><a href="#">{{connection.name}}</a></li>
         </ul>
     </div>
 </div>
