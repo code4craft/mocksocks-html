@@ -1,0 +1,13 @@
+div {
+  float: left;
+}
+#header {
+  color: #333333;
+  border-left: 1px;
+  border-right: 2px;
+  background-color: #d98825;
+  width: 100%;
+}
+body {
+  background-color: #e8dd8b;
+}
