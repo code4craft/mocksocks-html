@@ -1,0 +1,13 @@
+{
+  "name": "mocksocks",
+  "version": "0.0.1",
+  "main": "views/index.html",
+  "window": {
+      "toolbar":false,
+      "width": 940,
+      "height": 620,
+      "position": "center",
+      "min_width": 1024,
+      "min_height": 620
+  }
+}
