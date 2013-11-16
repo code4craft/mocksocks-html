@@ -1,13 +1,31 @@
 div {
   float: left;
 }
-#header {
-  color: #333333;
-  border-left: 1px;
-  border-right: 2px;
-  background-color: #d98825;
-  width: 100%;
-}
 body {
   background-color: #e8dd8b;
+}
+#header {
+  background-color: #d98825;
+  width: 100%;
+  margin-left: 0px;
+  border-bottom: 1px dashed white;
+  color: blanchedalmond;
+}
+#header .title {
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  height: 34px;
+}
+#header .description {
+  margin-top: 5px;
+  font-size: 16px;
+  height: 34px;
+}
+#header .underline {
+  border-bottom: 1px dashed white;
+}
+#title-description-container {
+  border-bottom: 1px dashed white;
+  width: 90%;
 }
