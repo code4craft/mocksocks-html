@@ -4,6 +4,9 @@ div {
 body {
   background-color: #e8dd8b;
 }
+.light-yellow {
+  color: #e8dd8b;
+}
 #header {
   background-color: #d98825;
   width: 100%;
@@ -24,7 +27,13 @@ body {
 #header .underline {
   border-bottom: 1px dashed white;
 }
-#title-description-container {
-  border-bottom: 1px dashed white;
-  width: 90%;
+#header .btn {
+  margin-top: 8px;
+  margin-right: 5px;
+  background-color: #59443c;
+  color: blanchedalmond;
+}
+#header .btn:hover {
+  color: #59443c;
+  background-color: blanchedalmond;
 }

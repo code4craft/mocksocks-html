@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="mockSocksApp">
 <head>
     <title>Mocksocks</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -18,9 +18,17 @@
 <div id="header" class="row">
     <div class="logo col-xs-2"><img src="../public/img/mocksocks.png" height="90" width="90"/></div>
     <div class="title col-xs-2">MockSocks</div>
+    <div class="description col-xs-8">帮助你调试任意TCP/UDP之上连接的Socks代理工具.</div>
     <div class="col-xs-8"></div>
-    <div class="underline col-xs-10"></div>
-    <div class="description col-xs-10">帮助你调试任意TCP/UDP之上连接的Socks代理工具.</div>
+    <div class="underline col-xs-9"></div>
+    <div class="col-xs-10">
+        <div class="row" id="nav">
+            <div class="btn-group">
+                <button type="button" class="btn btn-default">开始 <i class="fa fa-play"></i></button>
+                <button type="button" class="btn btn-default">清空 <i class="fa fa-trash-o"></i></button>
+            </div>
+        </div>
+    </div>
 
 </div>
 <div class="row">

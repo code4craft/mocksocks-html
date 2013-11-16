@@ -1,5 +1,6 @@
 @orange: #D98825;
 @light-yellow: #E8DD8B;
+@dark: #59443C;
 
 div {
   float: left;
@@ -7,6 +8,10 @@ div {
 
 body {
   background-color: @light-yellow;
+}
+
+.light-yellow {
+  color: @light-yellow;
 }
 
 #header {
@@ -30,9 +35,23 @@ body {
   .underline {
     border-bottom: 1px dashed white;
   }
+
+  .btn {
+    margin-top: 8px;
+    margin-right: 5px;
+    background-color: @dark;
+    color: blanchedalmond;
+  }
+
+  .btn:hover {
+    color: @dark;
+    background-color: blanchedalmond;
+  }
 }
 
-#title-description-container {
-  border-bottom: 1px dashed white;
-  width: 90%;
+#nav {
+}
+
+#connection {
+
 }
