@@ -1,13 +1,17 @@
 {
-  "name": "mocksocks",
-  "version": "0.0.1",
-  "main": "views/index.html",
-  "window": {
-      "toolbar":false,
-      "width": 960,
-      "height": 620,
-      "position": "center",
-      "min_width": 960,
-      "min_height": 620
-  }
+    "name": "mocksocks",
+    "version": "0.0.1",
+    "main": "views/index.html",
+    "window": {
+        "toolbar": false,
+        "width": 960,
+        "height": 620,
+        "position": "center",
+        "min_width": 960,
+        "min_height": 620,
+        "toolbar": true
+    },
+    "dependencies": {
+        "request": "~2.27.0"
+    }
 }

@@ -12,9 +12,9 @@ mockSocksApp.config(['$routeProvider',
                 templateUrl: 'partials/nav.html'
             }).
             when('/connection', {
-                templateUrl: 'partials/connection.html'
+                templateUrl: 'connection.html'
             }).
             otherwise({
-                redirectTo: '/index'
+                redirectTo: '/connection'
             });
     }]);
